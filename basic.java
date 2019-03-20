@@ -5,8 +5,12 @@ import java.util.Scanner;
 void check(int n){
 if(n>0)
 {System.out.println("POSITIVE");}
+else if(n<0)
+{
+System.out.println("NGATIVE");
+}
 else
-{System.out.println("NEGATIVE");}
+{System.out.println("ZERO");}
 }
 }
 
