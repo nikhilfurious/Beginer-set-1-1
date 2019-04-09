@@ -1,24 +1,23 @@
 import java.lang.*;
 import java.util.Scanner;
 
- class checker {
+class checker {
 void check(int n){
 if(n>0)
-{System.out.println("POSITIVE");}
+{System.out.println("Positive");}
 else if(n<0)
 {
-System.out.println("NGATIVE");
+System.out.println("Negative");
 }
 else
-{System.out.println("ZERO");}
+{System.out.println("Zero");}
 }
 }
 
-public class basic{
+class Main{
 public static void main(String args[])
 {
 Scanner scan = new Scanner(System.in);
-System.out.println("Enter the number to be checked:");
 int n = scan.nextInt();
 checker o = new checker();
 o.check(n);
