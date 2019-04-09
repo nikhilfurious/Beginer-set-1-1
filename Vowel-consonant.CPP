@@ -11,11 +11,11 @@ int main ()
         {
             if ((ch == 'A') || (ch == 'E')|| (ch == 'I')|| (ch == 'O')|| (ch == 'U')|| (ch == 'a')|| (ch == 'e')|| 
             (ch == 'i')|| (ch == 'o')|| (ch == 'u'))
-                cout << "\n vowel.";
+                cout << "\n Vowel";
             else
-                cout << "\n consonant.";
+                cout << "\n Consonant";
         }
         else 
-            cout << "\nInvalid";
+            cout << "\n invalid";
     return 0;
 }
